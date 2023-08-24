@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us</title>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script> <style>
+.div{
+  background-image: linear-gradient(to right, rgb(238, 199, 43), rgb(40, 125, 179)); padding: 6px;
+text-align: center;
+width: 50%;
+margin: auto;
+
+} .body{
+background-color: black;
+height: 100%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+ }
+h1{ font-size:40px; text-align: center; text-decoration-style: double; font-family: "ink free";
+
+color:rgb(183, 219, 43);
+}
+.button {
+  background-color:rgb(236, 210, 134);
+border: none;
+color: rgb(19, 16, 16);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius:8px;
+box-shadow: 0 8px 12px 0 rgba(1,5,0,0.2);
+transition-duration:0.5s;
+
+}
+.button:hover{
+
+  background-color:rgb(206, 235, 244);
+  
+}
+.arrow{
+  margin-top:30px;
+}
+</style>
+</head>
+<body>
+<h1>
+Contact Us
+</h1>
+<div id="info">
+<p>ASHWINI PURIMETLA</p>
+<ul type="none">
+<li>Ph.NO: +91 9515012000</li> <li>Email: ashwini@gmail.com</li> <li>Facebook: 
+Ashwinip</li> <li>D.NO: 4/75,Hyderabad</li>
+</ul>
+<p>ASHOK KUMAR</p> <ul type="none">
+<li>Ph.NO: +91 8919768856</li>
+<li>Email: ashok123@gmail.com</li> <li>Facebook: AshokKumar</li>
+<li>D.NO: 1/11/45 , Vijaywada</li>
+</ul>
+<p>ABHINAYA</p> <ul type="none">
+<li>Ph.NO: +91 9182065941</li>
+<li>Email:abhi234@gmail.com</li> <li>Facebook: Abhi</li> <li>D.NO: 
+2/81/34,rk nagar,chittoor</li>
+</ul> </div><div class="arrow">
+<center>
+    <a href="events.html"><button class="button">&laquo;</button></a>
+<a href="feedback.html"><button class="button">&raquo;</button></a></center>
+  </div>
+<script> document.getElementById("info").classList.add("div"); $("p").css(
+{
+textDecoration: "underline" , fontSize : "20px",
+fontWeight : "500",
+color : "White"
+} );
+$("li").css({
+fontSize: "18px",
+color : "white",
+fontWeight: "300",
+color : "white"
+});
+$("p").on({
+mouseenter: function(){
+$(this).css("color","red") },
+mouseleave: function(){ $(this).css("color","white")
+} });
+$("li").on({
+mouseenter: function(){
+$(this).css("color","orange") },
+mouseleave: function(){ $(this).css("color","white")
+} });
+document.body.classList.add("body"); </script>
+<img src="https://cutewallpaper.org/21/music-equalizer-gif/Music-equalizer-gif-7-GIF-Images-Download.gif" 
+width="1440px" height="60px" style="margin-top: 30px;" >
+</body>
+</html>
